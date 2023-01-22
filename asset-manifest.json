@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RenueTest/static/css/main.07a8925d.css",
+    "main.js": "/RenueTest/static/js/main.8910d7cc.js",
+    "index.html": "/RenueTest/index.html",
+    "main.07a8925d.css.map": "/RenueTest/static/css/main.07a8925d.css.map",
+    "main.8910d7cc.js.map": "/RenueTest/static/js/main.8910d7cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a8925d.css",
+    "static/js/main.8910d7cc.js"
+  ]
+}

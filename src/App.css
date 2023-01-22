@@ -1,7 +1,64 @@
 .App {
   text-align: center;
 }
+.mainPage {
+  display: flex;
+  margin-left: 25%;
+}
+.caption {
+  margin-top: 10%;
+}
+.count {
+  margin-top: 5%;
+}
 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:25px;
+  cursor: pointer;
+}
+.productButton{
+  margin: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.disable {
+  margin: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.imgNominals {
+  padding: 20px;
+  cursor: pointer;
+}
+input{
+  height: 30px;
+  width: 60px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +92,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul {
+  display: flex;
+  align-items: end;
+}
+li {
+  width: 100%;
+  list-style-type: none;
+}
+img {
+  width: 170px;
+}
+.noProduct{
+  filter:grayscale()
 }
